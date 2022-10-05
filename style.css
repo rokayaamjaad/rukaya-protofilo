@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Dongle&family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+* {
+ margin: 0;
+  padding: 0;
+}
+
+.center {
+  width: 400px;
+  margin: 10% auto;
+  text-align: center;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+
+}
+.main-div1{
+margin-top: -45px;
+}
+.header-font a{
+font-family: 'Almarai', sans-serif;
+font-family: 'Italiana', serif;
+}
+
+.main-image{
+width: 750px;
+height: 601px;
+
+}
+
+.protofilo-p{
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Italiana', serif;
+  margin-top: -390px;
+}
+.text1{
+margin-left: -100px;
+}
+.text2{
+margin-left:20px;
+}
+.text3{
+margin-left:-100px;
+}
+.regtangile1{
+margin-top:-170px;
+margin-left: -50px;
+margin-right: 50px;
+}
+.regtangile2{
+
+margin-left: -100px;
+margin-right: 348px;
+}
+.name1{
+margin-left:-100px;
+
+}
+.name2{
+margin-left:-100px;
+margin-top: -30px;
+}
+.small-circle{
+margin-top: -100px;
+
+}
+.click{
+margin-top: -20px;
+}
+.here2{
+margin-top: -43px;
+}
+.about-font1{
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Italiana', serif;
+  margin-left: -18px;
+}
+
+.about-font2{
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Italiana', serif;
+margin-top:-40px;
+
+
+}
+.about-font3{
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Italiana', serif;
+margin-top:-70px;
+margin-left: -50px;
+
+}
+.regtangile3{
+margin-top:-180px;
+}
+.about-header{
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Italiana', serif;
+  margin-top:-300px;
+}
+
+.who-ami{
+font-family: 'Kadwa', serif;
+margin-top: -70px;
+}
+.regtangile5{
+margin-top:-285px;
+}
+.about-blackcircle{
+margin-top: -18px;
+animation: moveleft 2s infinite ;
+}
+
+@keyframes moveleft {
+    0%{
+        margin-left:160px;
+    }
+
+
+    60%{
+        margin-left:250px;
+    }
+    70%{
+        margin-left:100px;
+    }
+    80%{
+        margin-left:120px;
+    }
+    100%{
+        margin-left:160px;
+    }
+
+}
+
+.about-p{
+font-family: 'Kadwa', serif;
+margin-top:-200px;
+}
+.protofilo{
+height: 1300px;
+}
+.protofilo-header{
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Italiana', serif;
+}
+.take-alook{
+font-family: 'Kadwa', serif;
+}
+.about-whitecircle{
+margin-top: -50px;
+}
+
+
+
+
+
+.container {
+  position: relative;
+
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #770606;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-family: 'Kadwa', serif;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 52%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.font-style{
+font-family: 'Kadwa', serif;
+}
+.regtangile8{
+margin-top:-40px;
+}
+.regtangile9{
+margin-top:-45px;
+}
+.regtangile10{
+margin-top:-10px;
+}
+.contact{
+height: 300px;
+margin-bottom: 300px;
+}
+.conact-container1{
+margin-left: 700px;
+padding-top:200px;
+}
+.conact-container2{
+margin-left: 700px;
+padding-top:80px;
+}
+.font-style2{
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Italiana', serif;
+}
+.conact-blackcircle{
+margin-top: -10px;
+}
